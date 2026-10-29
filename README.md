@@ -62,16 +62,16 @@ python generate_pdf_certificates.py \
 | --- | --- | --- |
 | `--template` | Path to the template PDF | `certificate_template.pdf` |
 | `--name` | Student's name (Single mode) | *None* |
-| `--date` | Custom date string | Today's Date (e.g. `June 15, 2026`) |
+| `--date` | Custom date string | *Optional* |
 | `--signature` | Path to signature PNG file | *None* |
 | `--output` | Destination path for output PDF | `certificate_<name>.pdf` |
 | `--batch` | Path to text or CSV list of names | *None* |
 | `--output-dir` | Folder for batch outputs | `outputs` |
+| `--font-name` | Path to custom font for name | `Times New Roman` |
 | `--name-size` | Font size for the name | `36` |
+| `--name-color`| Hex color code for the participant name | `#FFFFFF` (White) |
 | `--date-size` | Font size for the date | `16` |
-| `--sig-width` | Width to scale signature PNG | `130` |
-| `--sig-height` | Height to scale signature PNG | `130` |
-| `--text-color`| Hex color code for texts | `#202124` |
+| `--text-color`| Hex color code for date text | `#FFFFFF` (White) |
 
 ---
 
